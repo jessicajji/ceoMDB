@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		0C14C16F1C7EE14C00D4DDA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C14C16E1C7EE14C00D4DDA2 /* AppDelegate.swift */; };
-		0C14C1711C7EE14C00D4DDA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C14C1701C7EE14C00D4DDA2 /* ViewController.swift */; };
 		0C14C1741C7EE14C00D4DDA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C14C1721C7EE14C00D4DDA2 /* Main.storyboard */; };
 		0C14C1771C7EE14C00D4DDA2 /* CEO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0C14C1751C7EE14C00D4DDA2 /* CEO.xcdatamodeld */; };
 		0C14C1791C7EE14C00D4DDA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C14C1781C7EE14C00D4DDA2 /* Assets.xcassets */; };
 		0C14C17C1C7EE14C00D4DDA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C14C17A1C7EE14C00D4DDA2 /* LaunchScreen.storyboard */; };
 		0C14C1871C7EE14C00D4DDA2 /* CEOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C14C1861C7EE14C00D4DDA2 /* CEOTests.swift */; };
 		0C14C1921C7EE14C00D4DDA2 /* CEOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C14C1911C7EE14C00D4DDA2 /* CEOUITests.swift */; };
+		0C14C1A01C7EE26200D4DDA2 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C14C19F1C7EE26200D4DDA2 /* CollectionViewCell.swift */; };
+		0C14C1A21C7EE26B00D4DDA2 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C14C1A11C7EE26B00D4DDA2 /* ImageViewController.swift */; };
+		0C14C1A41C7EE29700D4DDA2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C14C1A31C7EE29700D4DDA2 /* TableViewCell.swift */; };
+		0C14C1A61C7EE29D00D4DDA2 /* CollectionCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C14C1A51C7EE29D00D4DDA2 /* CollectionCollectionViewController.swift */; };
+		0C14C1A81C7EE2A900D4DDA2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C14C1A71C7EE2A900D4DDA2 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,6 @@
 /* Begin PBXFileReference section */
 		0C14C16B1C7EE14C00D4DDA2 /* CEO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CEO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C14C16E1C7EE14C00D4DDA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0C14C1701C7EE14C00D4DDA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0C14C1731C7EE14C00D4DDA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C14C1761C7EE14C00D4DDA2 /* CEO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CEO.xcdatamodel; sourceTree = "<group>"; };
 		0C14C1781C7EE14C00D4DDA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		0C14C18D1C7EE14C00D4DDA2 /* CEOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CEOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C14C1911C7EE14C00D4DDA2 /* CEOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEOUITests.swift; sourceTree = "<group>"; };
 		0C14C1931C7EE14C00D4DDA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C14C19F1C7EE26200D4DDA2 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		0C14C1A11C7EE26B00D4DDA2 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		0C14C1A31C7EE29700D4DDA2 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		0C14C1A51C7EE29D00D4DDA2 /* CollectionCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCollectionViewController.swift; sourceTree = "<group>"; };
+		0C14C1A71C7EE2A900D4DDA2 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +108,16 @@
 			isa = PBXGroup;
 			children = (
 				0C14C16E1C7EE14C00D4DDA2 /* AppDelegate.swift */,
-				0C14C1701C7EE14C00D4DDA2 /* ViewController.swift */,
 				0C14C1721C7EE14C00D4DDA2 /* Main.storyboard */,
 				0C14C1781C7EE14C00D4DDA2 /* Assets.xcassets */,
 				0C14C17A1C7EE14C00D4DDA2 /* LaunchScreen.storyboard */,
 				0C14C17D1C7EE14C00D4DDA2 /* Info.plist */,
 				0C14C1751C7EE14C00D4DDA2 /* CEO.xcdatamodeld */,
+				0C14C1A51C7EE29D00D4DDA2 /* CollectionCollectionViewController.swift */,
+				0C14C1A31C7EE29700D4DDA2 /* TableViewCell.swift */,
+				0C14C1A71C7EE2A900D4DDA2 /* TableViewController.swift */,
+				0C14C1A11C7EE26B00D4DDA2 /* ImageViewController.swift */,
+				0C14C19F1C7EE26200D4DDA2 /* CollectionViewCell.swift */,
 			);
 			path = CEO;
 			sourceTree = "<group>";
@@ -262,8 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C14C1A41C7EE29700D4DDA2 /* TableViewCell.swift in Sources */,
+				0C14C1A81C7EE2A900D4DDA2 /* TableViewController.swift in Sources */,
 				0C14C1771C7EE14C00D4DDA2 /* CEO.xcdatamodeld in Sources */,
-				0C14C1711C7EE14C00D4DDA2 /* ViewController.swift in Sources */,
+				0C14C1A21C7EE26B00D4DDA2 /* ImageViewController.swift in Sources */,
+				0C14C1A01C7EE26200D4DDA2 /* CollectionViewCell.swift in Sources */,
+				0C14C1A61C7EE29D00D4DDA2 /* CollectionCollectionViewController.swift in Sources */,
 				0C14C16F1C7EE14C00D4DDA2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,6 +507,7 @@
 				0C14C1981C7EE14C00D4DDA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C14C1991C7EE14C00D4DDA2 /* Build configuration list for PBXNativeTarget "CEOTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +516,7 @@
 				0C14C19B1C7EE14C00D4DDA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C14C19C1C7EE14C00D4DDA2 /* Build configuration list for PBXNativeTarget "CEOUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +525,7 @@
 				0C14C19E1C7EE14C00D4DDA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
